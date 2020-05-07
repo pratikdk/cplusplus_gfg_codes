@@ -59,7 +59,7 @@ int main() {
     }
 
 
-    cout << "\n\n3. Using double pointer and one malloc call." << "\n";
+    cout << "\n\n4. Using double pointer and one malloc call." << "\n";
     count = 0;
     len = sizeof(int *)*r + sizeof(int)*c*r;
     darr = (int **)malloc(len);
@@ -95,6 +95,6 @@ Dynamic 2D array allocation:
 3. Using pointer to a pointer
 1 2 3 4 5 6 7 8 9 10 11 12
 
-3. Using double pointer and one malloc call.
+4. Using double pointer and one malloc call.
 1 2 3 4 5 6 7 8 9 10 11 12
 */
