@@ -85,7 +85,7 @@ void increase(void *data, int size) {
 void voidPointer() {
     char c = 'x';
     int i = 10;
-    
+
     increase(&c, sizeof(c));
     cout << "The new value of c is: " << c << "\n";
     increase(&i, sizeof(i));
@@ -97,4 +97,5 @@ int main() {
     callByPassBy();
     pointerArithmetic();
     voidPointer();
+    return 0;
 }
