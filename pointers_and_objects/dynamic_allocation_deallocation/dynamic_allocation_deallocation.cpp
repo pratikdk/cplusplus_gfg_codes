@@ -35,7 +35,7 @@ int main () {
     // Free the allocated memory
     delete p;
     delete r;
-    // fre the block of allocated memory
+    // free the block of allocated memory
     delete[] q;
 
     return 0;
